@@ -1,0 +1,27 @@
+.watchlistEmptyPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+   height: 64.3vh;
+}
+
+@media screen and (max-width: 800px){
+
+    .watchlistEmptyPage{
+       height: 42vh;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+
+    .watchlistEmptyPage{
+       height: 42vh;
+    }
+
+    .watchlistEmptyPage h1{
+        font-size:x-large;
+    }
+    
+}

@@ -1,0 +1,155 @@
+.flex-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 3rem;
+    /* border: 2px red solid; */
+}
+
+.track-crypto-heading,
+.real-time-heading {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.track-crypto-heading {
+    color: var(--white);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--white);
+}
+
+.track-crypto-heading:hover {
+    color: var(--black);
+    transition: all 0.3s;
+}
+
+
+.real-time-heading {
+    color: var(--blue);
+}
+
+.info-text {
+    font-size: 1rem;
+    color: var(--grey);
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+.phone-container {
+    width: 50%;
+    height: 90vh;
+    position: relative;
+    padding: 1rem;  
+}
+
+.iphone {
+    position: absolute;
+    z-index: 100;
+    min-width: 300px;
+    width: 50%;
+    right: 0%;
+}
+
+.gradient {
+    position: absolute;
+    min-width: 250px;
+    width: 40%;
+    right: 0;
+    top: 7rem;
+
+}
+
+@media only screen and (max-width:1250px) {
+
+    .phone-container {
+        height: 90vh; 
+    }
+
+    .track-crypto-heading,
+    .real-time-heading {
+        font-size: 4rem;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    .phone-container {
+        height: 65.5vh; 
+    }
+
+    .iphone {
+        min-width: 250px;
+        width: 50%;
+    }
+    
+    .gradient {
+        min-width: 200px;
+        top: 6rem;
+    
+    }
+
+}
+
+@media only screen and (max-width:800px){
+
+    .flex-info{
+        flex-flow: column;
+    }
+
+    .phone-container {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 2rem;
+        height: 50vh; 
+    }
+       
+    
+
+    .iphone{
+        left:15%;
+    }
+
+    .gradient{
+        left: 25%;
+    }
+
+    .left-component{
+        width: 100%;
+    }
+
+    .track-crypto-heading,
+    .real-time-heading {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .track-crypto-heading{
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .info-text{
+        text-align: center;
+    }
+
+    .btn-flex{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:650px){
+
+    .phone-container {
+        height: 30vh; 
+    }
+
+}

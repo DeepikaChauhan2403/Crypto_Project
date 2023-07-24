@@ -1,0 +1,39 @@
+.green {
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--green);
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.green:hover {
+    background-color: var(--green);
+    color: var(--black);
+    transition: all 0.3s;
+}
+
+.red {
+    border: 2px solid var(--red);
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--red);
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.red:hover {
+    background-color: var(--red);
+    color: var(--black);
+    transition: all 0.3s;
+}

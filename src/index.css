@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+--white:#fff;
+--black:#111;
+--blue:#3a80e9;
+--grey:#888;
+--darkgrey:#1b1b1b;
+--green:#61c96f;
+--red:#f94141;
+--sky: #89abe0;
+}
+
+[data-theme="light"] {
+  --white: #111;
+  --black: #fff;
+  --grey: #5f5e5e;
+  --darkgrey: #f3f3f3;
+  --teal: rgb(4, 41, 41);
+  --sky: #89abe0;
+  --tomato : rgb(236, 56, 24);
+  --yellow : rgb(226, 226, 45);
+  --blue:#3a80e9;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  /* height: 500vh; */
+}
+
+::selection {
+  background-color:var(--blue);
+  color: var(--white);
+}
+
+ /* scroll bar  */
+/* width */
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--sky);
+  border-radius: 3rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue);
+}
+
+a{
+  color: var(--white) !important;
+  text-decoration: none !important;
+}
+
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.grey-wrapper{
+  display: block;
+  width: 90%;
+  background-color: var(--darkgrey);
+  margin: 1.5rem auto;
+  border-radius: 0.8rem;
+  padding: 0rem 1rem;
+}
+
+.coins-days-flex{
+  display: flex;
+  justify-content: space-evenly ;
+  align-items: center;
+  /* gap: 3rem; */
+}
+
+@media screen and (max-width: 750px) {
+
+  .coins-days-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+}
+  
+.watchlist-cointainer{
+  min-height: 64.3vh;
+  height: auto;
+}
+
+.TogglePriceType-padding{
+  padding-top: 1rem;
+}
+
+

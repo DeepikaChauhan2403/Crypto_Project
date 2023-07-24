@@ -1,0 +1,15 @@
+.coins-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+   
+}
+
+
+@media screen and (max-width: 450px){
+    
+    .coins-flex-p{
+    display: none;
+    }
+}

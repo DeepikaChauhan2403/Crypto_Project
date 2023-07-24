@@ -1,0 +1,15 @@
+.toggle-prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* @media screen and (max-width: 800px) {
+    
+    .toggle-btn{
+        font-size: 0.7 !important;
+        padding: 0.5;
+        border: 2px red solid !important;
+    }
+} */
