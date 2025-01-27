@@ -27,3 +27,17 @@
 
 ![image](https://github.com/user-attachments/assets/83b499f6-6f3c-4ead-a6ce-4809b3c90d1c)
 
+<br/>
+<br/>
+
+<h1>Dependencies</h1>
+<ul>
+  <li>react</li>
+<li>react-router-dom</li>
+<li>react-chartjs-2</li>
+<li>chat-js</li>
+<li>framer-motion</li>
+<li>mui</li>
+<li>axios</li>
+</ul>
+
